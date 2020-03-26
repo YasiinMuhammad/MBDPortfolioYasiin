@@ -17,8 +17,7 @@ header{
   html,
   body,
   header,
-  #intro-section,
-  #contact-section {
+  #intro-section{
       height: 100vh;
   }
 }

@@ -4,15 +4,6 @@
     width: 100%;
     font-family: 'Shadows Into Light', cursive;
 } 
-/* #about-overlay{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.1);
-    top: 0;
-    bottom: 0;
-    z-index: 10;
-    height: auto;
-    width: 100%;
-}  */
 
 @media only screen and (max-width: 1002px){
 .about-pic{
