@@ -1,0 +1,24 @@
+#surface1{
+    animation: fill 5s ease forwards 7.65s;
+ }
+ 
+ #surface1 path:nth-child(1){
+    stroke-dasharray: 4200;
+    stroke-dashoffset: 4200;
+ animation: dash 8s forwards;
+ }
+ 
+ @keyframes dash {
+    to {
+      stroke-dashoffset: 10;
+    }
+  }
+ 
+  /* @keyframes fill {
+     from{
+        fill: transparent;
+     }
+     to {
+        fill: black;
+     }
+  } */

@@ -1,0 +1,22 @@
+
+
+.contact{
+    position: absolute;
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+
+
+.contactHead{
+    color: aliceblue;
+  
+}
+@media only screen and (min-width: 900px){
+    .contact{
+        height: 100%;
+    }
+    }
+
+

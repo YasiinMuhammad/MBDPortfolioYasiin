@@ -1,0 +1,47 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "mdbreact": "^4.26.0",
+    "nodemon": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-recaptcha": "^2.3.10",
+    "react-scripts": "3.4.1",
+    "react-timeline-scribble": "^1.0.14",
+    "react-typing-animation": "^1.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasiinMuhammad/MBDPortfolioYasiin.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
