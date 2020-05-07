@@ -1,0 +1,35 @@
+{
+  "name": "MBDPortfolioYasiin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "concurrently \"npm run app\" \"npm run client\"",
+    "client": "npm start --prefix my-portfolio",
+    "start": "nodemon app.js",
+    "app": "nodemon app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasiinMuhammad/MBDPortfolioYasiin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YasiinMuhammad/MBDPortfolioYasiin/issues"
+  },
+  "homepage": "https://github.com/YasiinMuhammad/MBDPortfolioYasiin#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "react-recaptcha": "^2.3.10"
+  }
+}
