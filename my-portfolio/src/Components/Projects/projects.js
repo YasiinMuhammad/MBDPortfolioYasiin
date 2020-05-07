@@ -98,11 +98,11 @@ class CardBody extends React.Component {
 }
 class Button extends React.Component {
     render() {
-       
+
         return (
             <MDBBtn className="button button-primary" >
-                <i className="fa fa-chevron-right text-white"> {this.props.link}</i> 
-      </MDBBtn>
+                <i className="fa fa-chevron-right text-white"> {this.props.link}</i>
+            </MDBBtn>
         )
     }
 }
@@ -111,17 +111,16 @@ class Button extends React.Component {
 class Card extends React.Component {
     render() {
         return (
-            // <MDBRow className="row row-cols-md-4" >
             <MDBCol className="mb-4">
                 <MDBCard style={{
                     width: "18rem", backgroundColor: "#45526e", borderStyle: "solid",
-                    borderWidth: "5px", borderColor: "white"}}>
+                    borderWidth: "5px", borderColor: "white"
+                }}>
                     <CardHeader category={this.props.details.title} image={this.props.details.image} />
                     <CardBody title={this.props.details.title} text={this.props.details.text} />
-                    <Button link={this.props.details.link}/>
+                    <Button link={this.props.details.link} />
                 </MDBCard>
             </MDBCol >
-            // </MDBRow>
         )
     }
 }
